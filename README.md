@@ -33,9 +33,9 @@ Le script "gestion_lab2.sh" permet de créer un laboratoire opérationnel corres
 
 Tous les conteneurs sont accessibles via ssh à partir de l'hôte et de l'extérieur.
 
-À partir de l'hôte les conteneurs sont directement accessibles via leur adresse IP interne sur le port 22, par exemple pour l'attaquant Kali : ssh etusio@192.168.56.12
+À partir de l'hôte les conteneurs sont directement accessibles via leur adresse IP interne sur le port 22, par exemple pour l'attaquant Kali : ssh ciel@192.168.56.12
 
-À partir d'une machine externe les conteneurs sont accessibles via l'adresse IP de l'hôte sur le port défini dans le fichier variables, par exemple pour l'attaquant Kali : ssh etusio@192.168.60.111 -p 32222 (avec 192.168.60.111 l'adresse IP du serveur Docker).
+À partir d'une machine externe les conteneurs sont accessibles via l'adresse IP de l'hôte sur le port défini dans le fichier variables, par exemple pour l'attaquant Kali : ssh ciel@192.168.60.111 -p 32222 (avec 192.168.60.111 l'adresse IP du serveur Docker).
 
 ### Interface graphique via RDP
 
@@ -81,7 +81,7 @@ Pour créer une image personnalisée (après avoir modifié le variables nécess
 - Gère les locales française et le timezone Europe/Paris.
 - Installe sudo et d'autres utilitaires.
 - Lance SSH.
-- Crée le compte "non root" utilisé dans le lab (par défaut etusio).
+- Crée le compte "non root" utilisé dans le lab (par défaut ciel).
 
 ### Image CLIENT (fichier dockerfile_CLIENT)
 
@@ -98,7 +98,7 @@ Pour créer une image personnalisée (après avoir modifié le variables nécess
 - Gère les locales françaises et la timezone Europe/Paris.
 - Installe sudo et d'autres outils nécessaire aux TP du labo ainsi que Wireshark et Firefox.
 - Lance SSH.
-- Crée le compte "non root" utilisé dans le lab (par défaut "etusio").
+- Crée le compte "non root" utilisé dans le lab (par défaut "ciel").
 
 ### Image ROUTEUR (fichier dockerfile_ROUTEUR)
 
