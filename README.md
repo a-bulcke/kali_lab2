@@ -57,17 +57,17 @@ Il est nécessaire de configurer un client de bureau à distance.
 
 Il y a 4 images opérationnelles plus une image Debian 12 de base.
 
-Les images existent déjà sur le Docker Hub sous l'id docker "reseaucerta" mais vous pouvez créer vos propres images après avoir éventuellement modifié les "variables" et les Dockerfile respectifs.
+Les images existent déjà sur le Docker Hub sous l'id docker "abulcke" mais vous pouvez créer vos propres images après avoir éventuellement modifié les "variables" et les Dockerfile respectifs.
 
 Elles sont très légères :
 
 ```
 REPOSITORY               TAG       SIZE
-reseaucerta/routeurdebian12   lab1      425MB
-reseaucerta/serveurdebian12   lab1      424MB
-reseaucerta/clientdebian12    lab1      1.32GB
-reseaucerta/kalirolling       lab1      7.39GB
-reseaucerta/basedebian12      1.0       421MB
+abulcke/routeurdebian12   lab1      425MB
+abulcke/serveurdebian12   lab1      424MB
+abulcke/clientdebian12    lab1      1.32GB
+abulcke/kalirolling       lab1      7.39GB
+abulcke/basedebian12      1.0       421MB
 tleemcjr/metasploitable2      latest    1.51GB
 ```
 
