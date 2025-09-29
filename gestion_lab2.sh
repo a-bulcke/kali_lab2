@@ -55,11 +55,11 @@ HOST_ROUTEUR="routeur"
 HOST_METASPLOITABLE="srvm"
 
 # Configuration du domaine
-DOMAINE=local.sio.fr
+DOMAINE=local.ciel.fr
 
 # Configuration de l'utilisateur
-USERNAME="etusio"
-USERPASS="Fghijkl1234*"
+USERNAME="ciel"
+USERPASS="Lafayette"
 
 # Configuration des volumes
 # Les volumes persistent les données du répertoire personnel
@@ -70,7 +70,7 @@ VOL_ROUTEUR="home_routeur_lab2"
 VOL_METASPLOITABLE="home_metasploitable_lab2"
 
 # ID docker HUB
-ID_DOCKER=reseaucerta
+ID_DOCKER=abulcke
 
 # Nom de l'image
 IMAGE_SERVEUR="$ID_DOCKER/serveurdebian12:lab2"
